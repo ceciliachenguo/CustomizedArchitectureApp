@@ -37,15 +37,23 @@ struct UserCoordinator: View {
                 }
                 .tag(Tab.orders)
 
-            UserSettingView(
-                onRegisterAsMerchant: {
-                    print("Register as Merchant")
+            UserSettingTabCoordinator()
+                .tabItem {
+                    Label("Settings", systemImage: "gearshape")
                 }
-            )
-            .tabItem {
-                Label("Settings", systemImage: "gearshape")
-            }
-            .tag(Tab.settings)
+                .tag(Tab.settings)
         }
     }
+}
+
+enum Tab: Hashable {
+    case explore
+    case saved
+    case inbox
+    case orders
+    case settings
+}
+
+class TabViewState: ObservableObject {
+    @Published var selectedTab: Tab = .explore
 }

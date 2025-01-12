@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D1F06A92D34335600EA3500 /* UserSettingTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F06A82D34335600EA3500 /* UserSettingTabCoordinator.swift */; };
+		8D1F06AC2D34338900EA3500 /* ExploreTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F06AB2D34338900EA3500 /* ExploreTabCoordinator.swift */; };
+		8D1F06AF2D3433C400EA3500 /* SavedTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F06AE2D3433C400EA3500 /* SavedTabCoordinator.swift */; };
+		8D1F06B22D3433E700EA3500 /* OrdersTabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F06B12D3433E700EA3500 /* OrdersTabCoordinator.swift */; };
 		8DD0BD632D3284A5000847D3 /* CustomizedArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD622D3284A5000847D3 /* CustomizedArchitectureApp.swift */; };
 		8DD0BD672D3284A6000847D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD0BD662D3284A6000847D3 /* Assets.xcassets */; };
 		8DD0BD6A2D3284A6000847D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD0BD692D3284A6000847D3 /* Preview Assets.xcassets */; };
@@ -38,6 +42,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D1F06A82D34335600EA3500 /* UserSettingTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingTabCoordinator.swift; sourceTree = "<group>"; };
+		8D1F06AB2D34338900EA3500 /* ExploreTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreTabCoordinator.swift; sourceTree = "<group>"; };
+		8D1F06AE2D3433C400EA3500 /* SavedTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedTabCoordinator.swift; sourceTree = "<group>"; };
+		8D1F06B12D3433E700EA3500 /* OrdersTabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTabCoordinator.swift; sourceTree = "<group>"; };
 		8DD0BD5F2D3284A5000847D3 /* CustomizedArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizedArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD0BD622D3284A5000847D3 /* CustomizedArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedArchitectureApp.swift; sourceTree = "<group>"; };
 		8DD0BD662D3284A6000847D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,6 +88,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D1F06A72D34330A00EA3500 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8D1F06A82D34335600EA3500 /* UserSettingTabCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8D1F06AA2D34338000EA3500 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8D1F06AB2D34338900EA3500 /* ExploreTabCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8D1F06AD2D3433BC00EA3500 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8D1F06AE2D3433C400EA3500 /* SavedTabCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		8D1F06B02D3433DF00EA3500 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				8D1F06B12D3433E700EA3500 /* OrdersTabCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		8DD0BD562D3284A5000847D3 = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +216,7 @@
 		8DD0BDA72D3295CD000847D3 /* Explore */ = {
 			isa = PBXGroup;
 			children = (
+				8D1F06AA2D34338000EA3500 /* Coordinator */,
 				8DD0BD9A2D329466000847D3 /* InputCardView.swift */,
 				8DD0BD942D3292AE000847D3 /* ServiceCardView.swift */,
 				8DD0BD982D3292DB000847D3 /* ServiceDetailView.swift */,
@@ -187,6 +228,7 @@
 		8DD0BDA82D3295E7000847D3 /* Order */ = {
 			isa = PBXGroup;
 			children = (
+				8D1F06B02D3433DF00EA3500 /* Coordinator */,
 				8DD0BD9E2D329513000847D3 /* OrdersView.swift */,
 				8DD0BD9C2D32947A000847D3 /* OrderDetailView.swift */,
 				8DD0BDA02D329524000847D3 /* OrderCardView.swift */,
@@ -198,6 +240,7 @@
 		8DD0BDA92D3295FC000847D3 /* Saved */ = {
 			isa = PBXGroup;
 			children = (
+				8D1F06AD2D3433BC00EA3500 /* Coordinator */,
 				8DD0BD782D32850A000847D3 /* SavedView.swift .swift */,
 			);
 			path = Saved;
@@ -214,6 +257,7 @@
 		8DD0BDAB2D329619000847D3 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				8D1F06A72D34330A00EA3500 /* Coordinator */,
 				8DD0BD7C2D32851D000847D3 /* UserSettingView.swift */,
 			);
 			path = Setting;
@@ -291,12 +335,15 @@
 			files = (
 				8DD0BD812D328531000847D3 /* HomeView.swift in Sources */,
 				8DD0BD892D328554000847D3 /* AuthCoordinator.swift in Sources */,
+				8D1F06AF2D3433C400EA3500 /* SavedTabCoordinator.swift in Sources */,
 				8DD0BD9B2D329466000847D3 /* InputCardView.swift in Sources */,
 				8DD0BD752D3284F5000847D3 /* UserCoordinator.swift in Sources */,
+				8D1F06B22D3433E700EA3500 /* OrdersTabCoordinator.swift in Sources */,
 				8DD0BD872D32854A000847D3 /* MerchantSettingView.swift in Sources */,
 				8DD0BD7F2D328529000847D3 /* MerchantCoordinator.swift in Sources */,
 				8DD0BD932D32859A000847D3 /* AppCoordinator.swift in Sources */,
 				8DD0BDA12D329524000847D3 /* OrderCardView.swift in Sources */,
+				8D1F06AC2D34338900EA3500 /* ExploreTabCoordinator.swift in Sources */,
 				8DD0BD952D3292AE000847D3 /* ServiceCardView.swift in Sources */,
 				8DD0BD9D2D32947A000847D3 /* OrderDetailView.swift in Sources */,
 				8DD0BDA52D329547000847D3 /* Order.swift in Sources */,
@@ -315,6 +362,7 @@
 				8DD0BD792D32850A000847D3 /* SavedView.swift .swift in Sources */,
 				8DD0BD9F2D329513000847D3 /* OrdersView.swift in Sources */,
 				8DD0BD852D328542000847D3 /* IncomeDashboardView.swift in Sources */,
+				8D1F06A92D34335600EA3500 /* UserSettingTabCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
