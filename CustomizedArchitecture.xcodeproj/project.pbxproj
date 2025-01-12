@@ -8,17 +8,65 @@
 
 /* Begin PBXBuildFile section */
 		8DD0BD632D3284A5000847D3 /* CustomizedArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD622D3284A5000847D3 /* CustomizedArchitectureApp.swift */; };
-		8DD0BD652D3284A5000847D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD642D3284A5000847D3 /* ContentView.swift */; };
 		8DD0BD672D3284A6000847D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD0BD662D3284A6000847D3 /* Assets.xcassets */; };
 		8DD0BD6A2D3284A6000847D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DD0BD692D3284A6000847D3 /* Preview Assets.xcassets */; };
+		8DD0BD752D3284F5000847D3 /* UserCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD742D3284F5000847D3 /* UserCoordinator.swift */; };
+		8DD0BD772D328502000847D3 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD762D328502000847D3 /* ExploreView.swift */; };
+		8DD0BD792D32850A000847D3 /* SavedView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD782D32850A000847D3 /* SavedView.swift .swift */; };
+		8DD0BD7B2D328513000847D3 /* InboxView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD7A2D328513000847D3 /* InboxView.swift .swift */; };
+		8DD0BD7D2D32851D000847D3 /* UserSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD7C2D32851D000847D3 /* UserSettingView.swift */; };
+		8DD0BD7F2D328529000847D3 /* MerchantCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD7E2D328529000847D3 /* MerchantCoordinator.swift */; };
+		8DD0BD812D328531000847D3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD802D328531000847D3 /* HomeView.swift */; };
+		8DD0BD832D32853A000847D3 /* MerchantInboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD822D32853A000847D3 /* MerchantInboxView.swift */; };
+		8DD0BD852D328542000847D3 /* IncomeDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD842D328542000847D3 /* IncomeDashboardView.swift */; };
+		8DD0BD872D32854A000847D3 /* MerchantSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD862D32854A000847D3 /* MerchantSettingView.swift */; };
+		8DD0BD892D328554000847D3 /* AuthCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD882D328554000847D3 /* AuthCoordinator.swift */; };
+		8DD0BD8B2D32855C000847D3 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD8A2D32855C000847D3 /* LoginView.swift */; };
+		8DD0BD8D2D328564000847D3 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD8C2D328564000847D3 /* RegisterView.swift */; };
+		8DD0BD8F2D32856B000847D3 /* MerchantRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD8E2D32856B000847D3 /* MerchantRegisterView.swift */; };
+		8DD0BD912D328575000847D3 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD902D328575000847D3 /* AppState.swift */; };
+		8DD0BD932D32859A000847D3 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD922D32859A000847D3 /* AppCoordinator.swift */; };
+		8DD0BD952D3292AE000847D3 /* ServiceCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD942D3292AE000847D3 /* ServiceCardView.swift */; };
+		8DD0BD972D3292C9000847D3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD962D3292C9000847D3 /* Service.swift */; };
+		8DD0BD992D3292DB000847D3 /* ServiceDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD982D3292DB000847D3 /* ServiceDetailView.swift */; };
+		8DD0BD9B2D329466000847D3 /* InputCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD9A2D329466000847D3 /* InputCardView.swift */; };
+		8DD0BD9D2D32947A000847D3 /* OrderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD9C2D32947A000847D3 /* OrderDetailView.swift */; };
+		8DD0BD9F2D329513000847D3 /* OrdersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BD9E2D329513000847D3 /* OrdersView.swift */; };
+		8DD0BDA12D329524000847D3 /* OrderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BDA02D329524000847D3 /* OrderCardView.swift */; };
+		8DD0BDA32D329533000847D3 /* OrderDetailViewFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BDA22D329533000847D3 /* OrderDetailViewFromList.swift */; };
+		8DD0BDA52D329547000847D3 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD0BDA42D329547000847D3 /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DD0BD5F2D3284A5000847D3 /* CustomizedArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizedArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DD0BD622D3284A5000847D3 /* CustomizedArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedArchitectureApp.swift; sourceTree = "<group>"; };
-		8DD0BD642D3284A5000847D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DD0BD662D3284A6000847D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DD0BD692D3284A6000847D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8DD0BD742D3284F5000847D3 /* UserCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCoordinator.swift; sourceTree = "<group>"; };
+		8DD0BD762D328502000847D3 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		8DD0BD782D32850A000847D3 /* SavedView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SavedView.swift .swift"; sourceTree = "<group>"; };
+		8DD0BD7A2D328513000847D3 /* InboxView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InboxView.swift .swift"; sourceTree = "<group>"; };
+		8DD0BD7C2D32851D000847D3 /* UserSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettingView.swift; sourceTree = "<group>"; };
+		8DD0BD7E2D328529000847D3 /* MerchantCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantCoordinator.swift; sourceTree = "<group>"; };
+		8DD0BD802D328531000847D3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8DD0BD822D32853A000847D3 /* MerchantInboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantInboxView.swift; sourceTree = "<group>"; };
+		8DD0BD842D328542000847D3 /* IncomeDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeDashboardView.swift; sourceTree = "<group>"; };
+		8DD0BD862D32854A000847D3 /* MerchantSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantSettingView.swift; sourceTree = "<group>"; };
+		8DD0BD882D328554000847D3 /* AuthCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthCoordinator.swift; sourceTree = "<group>"; };
+		8DD0BD8A2D32855C000847D3 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8DD0BD8C2D328564000847D3 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		8DD0BD8E2D32856B000847D3 /* MerchantRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MerchantRegisterView.swift; sourceTree = "<group>"; };
+		8DD0BD902D328575000847D3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		8DD0BD922D32859A000847D3 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		8DD0BD942D3292AE000847D3 /* ServiceCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCardView.swift; sourceTree = "<group>"; };
+		8DD0BD962D3292C9000847D3 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		8DD0BD982D3292DB000847D3 /* ServiceDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailView.swift; sourceTree = "<group>"; };
+		8DD0BD9A2D329466000847D3 /* InputCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputCardView.swift; sourceTree = "<group>"; };
+		8DD0BD9C2D32947A000847D3 /* OrderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailView.swift; sourceTree = "<group>"; };
+		8DD0BD9E2D329513000847D3 /* OrdersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersView.swift; sourceTree = "<group>"; };
+		8DD0BDA02D329524000847D3 /* OrderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCardView.swift; sourceTree = "<group>"; };
+		8DD0BDA22D329533000847D3 /* OrderDetailViewFromList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailViewFromList.swift; sourceTree = "<group>"; };
+		8DD0BDA42D329547000847D3 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +99,14 @@
 		8DD0BD612D3284A5000847D3 /* CustomizedArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				8DD0BD732D3284D2000847D3 /* Models */,
+				8DD0BD722D3284C6000847D3 /* AuthModule */,
+				8DD0BD712D3284BB000847D3 /* MerchantModule */,
+				8DD0BD702D3284B5000847D3 /* UserModule */,
 				8DD0BD622D3284A5000847D3 /* CustomizedArchitectureApp.swift */,
-				8DD0BD642D3284A5000847D3 /* ContentView.swift */,
 				8DD0BD662D3284A6000847D3 /* Assets.xcassets */,
 				8DD0BD682D3284A6000847D3 /* Preview Content */,
+				8DD0BD922D32859A000847D3 /* AppCoordinator.swift */,
 			);
 			path = CustomizedArchitecture;
 			sourceTree = "<group>";
@@ -65,6 +117,106 @@
 				8DD0BD692D3284A6000847D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DD0BD702D3284B5000847D3 /* UserModule */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BDA62D3295BF000847D3 /* View */,
+				8DD0BD742D3284F5000847D3 /* UserCoordinator.swift */,
+			);
+			path = UserModule;
+			sourceTree = "<group>";
+		};
+		8DD0BD712D3284BB000847D3 /* MerchantModule */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BD7E2D328529000847D3 /* MerchantCoordinator.swift */,
+				8DD0BD802D328531000847D3 /* HomeView.swift */,
+				8DD0BD822D32853A000847D3 /* MerchantInboxView.swift */,
+				8DD0BD842D328542000847D3 /* IncomeDashboardView.swift */,
+				8DD0BD862D32854A000847D3 /* MerchantSettingView.swift */,
+			);
+			path = MerchantModule;
+			sourceTree = "<group>";
+		};
+		8DD0BD722D3284C6000847D3 /* AuthModule */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BD882D328554000847D3 /* AuthCoordinator.swift */,
+				8DD0BD8A2D32855C000847D3 /* LoginView.swift */,
+				8DD0BD8C2D328564000847D3 /* RegisterView.swift */,
+				8DD0BD8E2D32856B000847D3 /* MerchantRegisterView.swift */,
+			);
+			path = AuthModule;
+			sourceTree = "<group>";
+		};
+		8DD0BD732D3284D2000847D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BD902D328575000847D3 /* AppState.swift */,
+				8DD0BD962D3292C9000847D3 /* Service.swift */,
+				8DD0BDA42D329547000847D3 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8DD0BDA62D3295BF000847D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BDAB2D329619000847D3 /* Setting */,
+				8DD0BDAA2D329603000847D3 /* Inbox */,
+				8DD0BDA92D3295FC000847D3 /* Saved */,
+				8DD0BDA82D3295E7000847D3 /* Order */,
+				8DD0BDA72D3295CD000847D3 /* Explore */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DD0BDA72D3295CD000847D3 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BD9A2D329466000847D3 /* InputCardView.swift */,
+				8DD0BD942D3292AE000847D3 /* ServiceCardView.swift */,
+				8DD0BD982D3292DB000847D3 /* ServiceDetailView.swift */,
+				8DD0BD762D328502000847D3 /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		8DD0BDA82D3295E7000847D3 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BD9E2D329513000847D3 /* OrdersView.swift */,
+				8DD0BD9C2D32947A000847D3 /* OrderDetailView.swift */,
+				8DD0BDA02D329524000847D3 /* OrderCardView.swift */,
+				8DD0BDA22D329533000847D3 /* OrderDetailViewFromList.swift */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		8DD0BDA92D3295FC000847D3 /* Saved */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BD782D32850A000847D3 /* SavedView.swift .swift */,
+			);
+			path = Saved;
+			sourceTree = "<group>";
+		};
+		8DD0BDAA2D329603000847D3 /* Inbox */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BD7A2D328513000847D3 /* InboxView.swift .swift */,
+			);
+			path = Inbox;
+			sourceTree = "<group>";
+		};
+		8DD0BDAB2D329619000847D3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8DD0BD7C2D32851D000847D3 /* UserSettingView.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +289,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DD0BD652D3284A5000847D3 /* ContentView.swift in Sources */,
+				8DD0BD812D328531000847D3 /* HomeView.swift in Sources */,
+				8DD0BD892D328554000847D3 /* AuthCoordinator.swift in Sources */,
+				8DD0BD9B2D329466000847D3 /* InputCardView.swift in Sources */,
+				8DD0BD752D3284F5000847D3 /* UserCoordinator.swift in Sources */,
+				8DD0BD872D32854A000847D3 /* MerchantSettingView.swift in Sources */,
+				8DD0BD7F2D328529000847D3 /* MerchantCoordinator.swift in Sources */,
+				8DD0BD932D32859A000847D3 /* AppCoordinator.swift in Sources */,
+				8DD0BDA12D329524000847D3 /* OrderCardView.swift in Sources */,
+				8DD0BD952D3292AE000847D3 /* ServiceCardView.swift in Sources */,
+				8DD0BD9D2D32947A000847D3 /* OrderDetailView.swift in Sources */,
+				8DD0BDA52D329547000847D3 /* Order.swift in Sources */,
+				8DD0BD912D328575000847D3 /* AppState.swift in Sources */,
+				8DD0BD8D2D328564000847D3 /* RegisterView.swift in Sources */,
+				8DD0BD8F2D32856B000847D3 /* MerchantRegisterView.swift in Sources */,
+				8DD0BD972D3292C9000847D3 /* Service.swift in Sources */,
+				8DD0BD772D328502000847D3 /* ExploreView.swift in Sources */,
+				8DD0BD7B2D328513000847D3 /* InboxView.swift .swift in Sources */,
+				8DD0BD8B2D32855C000847D3 /* LoginView.swift in Sources */,
 				8DD0BD632D3284A5000847D3 /* CustomizedArchitectureApp.swift in Sources */,
+				8DD0BD832D32853A000847D3 /* MerchantInboxView.swift in Sources */,
+				8DD0BDA32D329533000847D3 /* OrderDetailViewFromList.swift in Sources */,
+				8DD0BD7D2D32851D000847D3 /* UserSettingView.swift in Sources */,
+				8DD0BD992D3292DB000847D3 /* ServiceDetailView.swift in Sources */,
+				8DD0BD792D32850A000847D3 /* SavedView.swift .swift in Sources */,
+				8DD0BD9F2D329513000847D3 /* OrdersView.swift in Sources */,
+				8DD0BD852D328542000847D3 /* IncomeDashboardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
